@@ -1,0 +1,55 @@
+/*
+Syntax error: File to import not found or unreadable: bootstrap-sass/lib/bootstrap.
+              Load path: /home/alec/workspace/zins/app/styles
+        on line 4 of main.scss
+
+1: $iconSpritePath: "../images/glyphicons-halflings.png";
+2: $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+3: 
+4: @import "bootstrap-sass/lib/bootstrap";
+5: 
+6: /* Put your CSS here *\/
+7: html, body {
+8:   margin: 20px;
+9: }
+
+Backtrace:
+main.scss:4
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/plugin.rb:81:in `update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/exec.rb:435:in `watch_or_update'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/exec.rb:318:in `process_result'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/exec.rb:41:in `parse'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/lib/sass/exec.rb:21:in `parse!'
+/var/lib/gems/1.9.1/gems/sass-3.2.10/bin/scss:9:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: bootstrap-sass/lib/bootstrap.\A               Load path: /home/alec/workspace/zins/app/styles\A         on line 4 of main.scss\A \A 1: $iconSpritePath: \"../images/glyphicons-halflings.png\";\A 2: $iconWhiteSpritePath: \"../images/glyphicons-halflings-white.png\";\A 3: \A 4: @import \"bootstrap-sass/lib/bootstrap\";\A 5: \A 6: /* Put your CSS here */\A 7: html, body {\A 8:   margin: 20px;\A 9: }"; }

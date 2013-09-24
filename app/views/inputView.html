@@ -1,0 +1,73 @@
+<div class="hero-unit" ng-controller='CompoundCtrl'>
+
+    <div>
+        <span
+             ng-class="{active: settings.isTarget('k0') }"
+             ng-click=" settings.target='k0' "
+             class="big-equal"
+             >
+             =
+        </span>
+        <input type='number'
+           currency-input
+           ng-model='values.k0'
+           ng-class="{disabled: settings.isTarget('k0')}"
+           min = 0.01
+           step = 1
+
+            /> Euro
+    </div>
+
+    <div>
+        <span
+            ng-class="{active: settings.isTarget('p') }"
+            ng-click=" settings.target='p' "
+            class="big-equal"
+            >
+             =
+        </span>
+        <input type='number'
+           ng-model='values.p'
+           ng-dblclick='settings.target="p"'
+           min=0.01
+           max=100
+           step=0.01
+           /> %
+    </div>
+
+    <div>
+        <span
+            ng-class="{active: settings.isTarget('t') }"
+            ng-click=" settings.target='t' "
+            class="big-equal"
+            >
+             =
+        </span>
+        <input type='number'
+           ng-model='values.t'
+           min=1
+           step=1
+           /> Jahre
+    </div>
+
+    <div>
+        <span
+            ng-class="{active: settings.isTarget('kt') }"
+            ng-click=" settings.target='kt' "
+            class="big-equal"
+            >
+             =
+        </span>
+        <input type='number'
+           currency-input
+           ng-model='values.kt'
+           min = 0.01
+           step = 1
+            /> Euro
+    </div>
+
+</div>
+<div ng-controller='chartCtrl'>
+    test
+    <compound-ts-chart>test2</compound-ts-chart>
+</div>
